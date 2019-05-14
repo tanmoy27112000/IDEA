@@ -24,57 +24,6 @@
     <link rel="stylesheet" href="css/all.css">
     <!-- style CSS -->
     <link rel="stylesheet" href="css/style.css">
-  
-    <script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:1319138,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-    <style>
-.button {
-  border-radius: 4px;
-  background-color: deeppink;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 12px;
-  width: 600px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-</style>
 </head>
 
 <body>
@@ -94,34 +43,34 @@
                         <div class="collapse navbar-collapse main-menu-item justify-content-end"
                             id="navbarSupportedContent">
                             <ul class="navbar-nav">
-                              <li class="nav-item active">
-                                  <a class="nav-link" href="index.html">Home</a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link" href="about.html">About Us</a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link" href="service.html">Pricing</a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link" href="project.html">Influencers</a>
-                              </li>
-                              <!-- <li class="nav-item">
-                                  <a class="nav-link" href="blog.html">Blog</a>
-                              </li> -->
-                              <!-- <li class="nav-item dropdown">
-                                  <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      pages
-                                  </a>
-                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                      <a class="dropdown-item" href="single-blog.html">Single blog</a>
-                                      <a class="dropdown-item" href="elements.html">Elements</a>
-                                  </div>
-                              </li> -->
-                              <li class="nav-item">
-                                  <a class="nav-link" href="contact.html">Contact</a>
-                              </li>
-                          </ul>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="service.html">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="project.html">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="blog.html">Blog</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        pages
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="single-blog.html">Single blog</a>
+                                        <a class="dropdown-item" href="elements.html">Elements</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
                         </div>
                     </nav>
                 </div>
@@ -182,83 +131,57 @@
       <div class="row">
         <div class="col-12">
           <h2 class="contact-title">Get in Touch</h2>
-            <h4> We are always here to serve you<br> </br> </h4>
-            
         </div>
-          
-          
         <div class="col-lg-8">
-          <form class="form-contact contact_form" action="contactform.php" method="post" id="contactForm" novalidate="novalidate">
+          <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
             <div class="row">
-              
-              <div class="col-sm-6">
-                <div class="form-group">
-                  <input class="form-control" name="name" id="name" type="text" onfocus="this.placeholder = 'Your Name'" onblur="this.placeholder = 'Enter your name'" placeholder = 'Enter your name'>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="form-group">
-                  <input class="form-control" name="email" id="email" type="email" onfocus="this.placeholder = 'Your Email'" onblur="this.placeholder = 'Enter email address'" placeholder = 'Enter email'>
-                </div>
-              </div>
-                 <div class="col-sm-6">
-                <div class="form-group">
-                  <input class="form-control" name="number" id="number" type="number" onfocus="this.placeholder = 'Your number'" onblur="this.placeholder = 'Enter phone number'" placeholder = 'Phone Number'>
-                </div>
-              </div>
-             
-                <div class="clo-12">
-                    <div class="form-group">
-                        <select name="passss" style="position: absolute; color:black; background: #d3bebe;  reds; padding: 13px; border: 10px; border-left: 10px; ">
-                        <option value="passss">Select a Pass</option>
-                            <option value="1 week pass">1 Week Pass</option>
-                            <option value="1 month pass">1 Month Pass</option>
-                            <option value="1 month pass premium">1 Month Pass Premium</option>
-                        </select>
-                    </div>
-                </div>                
-                <!-- <div class="col-12">
-                <div class="form-group">
-                  <input class="form-control" name="address" id="address" type="text" onfocus="this.placeholder = 'Your address'" onblur="this.placeholder = 'Enter Address'" placeholder = 'Contact Address'>
-                </div>
-              </div> -->
-                <div class="col-12">
+              <div class="col-12">
                 <div class="form-group">
                   
-                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="3" onfocus="this.placeholder = 'Type something what you want to say'" onblur="this.placeholder = 'Enter Message'" placeholder = 'Enter a small message you want to ask us'></textarea>
+                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder = 'Enter Message'></textarea>
                 </div>
               </div>
-           </div>
-            <div class="form-group">
-                <button class="button" type="submit" ><span>Send Message</span></button>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <input class="form-control" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder = 'Enter your name'>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <input class="form-control" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder = 'Enter email address'>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group">
+                  <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder = 'Enter Subject'>
+                </div>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <button type="submit" class="button button-contactForm btn_4">Send Message</button>
             </div>
           </form>
         </div>
-
-          
-          
-          
-          
         <div class="col-lg-4">
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-home"></i></span>
             <div class="media-body">
-              <h3>Jaipur, Rajasthan</h3>
-              <p>Gurukul, Sikar Road</p>
+              <h3>Buttonwood, California.</h3>
+              <p>Rosemead, CA 91770</p>
             </div>
           </div>
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-tablet"></i></span>
             <div class="media-body">
-              <h3>+91-7031932380</h3>
+              <h3>00 (440) 9865 562</h3>
               <p>Mon to Fri 9am to 6pm</p>
             </div>
           </div>
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-email"></i></span>
             <div class="media-body">
-              <h3>promoxcrp@gmail.com</h3>
-              <p>Send us your query anytime!  </p>
+              <h3>support@colorlib.com</h3>
+              <p>Send us your query anytime!</p>
             </div>
           </div>
         </div>
@@ -284,11 +207,11 @@
                     <h4>Newsletter</h4>
                     <p>Stay updated with our latest trends Seed heaven so said place winged over given forth fruit.
                     </p>
-                    <form action="notification.php">
+                    <form action="#">
                         <div class="form-group">
-                            <div class="input-group">
+                            <div class="input-group mb-3">
                                 <input type="text" class="form-control" placeholder='Enter email address'
-                                    onfocus="this.placeholder = 'Your Email'"
+                                    onfocus="this.placeholder = ''"
                                     onblur="this.placeholder = 'Enter email address'">
                                 <div class="input-group-append">
                                     <button class="btn" type="button"><i class="ti-angle-right"></i></button>
@@ -345,7 +268,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <p class="footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="index.html" target="_blank">Sunanda</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                         </div>
                     </div>
@@ -386,19 +309,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="js/slick.min.js"></script>
 <!-- custom js -->
 <script src="js/custom.js"></script>
-    <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5cda26abd07d7e0c639368b1/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
 </body>
 
 </html>
